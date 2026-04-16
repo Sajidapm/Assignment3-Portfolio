@@ -3,9 +3,7 @@
     margin: 0;
     border: 0;
 }
-body{
-    border: 1px solid rgb(151, 144, 144);
-}
+
 header{
     background:linear-gradient(blue, white);
     color: azure;
@@ -19,6 +17,12 @@ header{
     border:1px solid rgb(228, 222, 222);
     box-shadow: rgb(240, 238, 238) 0px 5px 15px;
     
+    }
+    
+    #logo
+    {
+     text-decoration: none;
+     color: rgb(95, 19, 19);
     }
 header ul{
   display: flex;  
@@ -120,7 +124,7 @@ header ul{
     justify-content: space-between;
     padding-left: 10vw;
     gap: 30px;
-    background-color: aquamarine;
+    background-color: rgb(234, 241, 238);
 }
 .input
 {
