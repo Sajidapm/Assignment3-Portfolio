@@ -92,17 +92,19 @@ header ul{
 #projects{
     margin: 5px;
     padding :100px 0px 60px 0;
+    
 }
 #projects h2{
-    text-align: center;
-    padding: 0 0 60px 0px;
-    color: blue;
+    
+    padding: 0 0 60px 30px;
+    margin:30px;
 }
 #projects ol 
 {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    gap: 20px;
+    
+    flex-wrap: wrap;
         
 }
 .projectlist
@@ -113,6 +115,7 @@ header ul{
     justify-content: space-between;
     border: .5px solid rgb(231, 228, 228);
     padding: 10px;
+
 
 }
 .projectpic
